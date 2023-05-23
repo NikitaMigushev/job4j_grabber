@@ -12,16 +12,6 @@ public class PsqlStore implements Store {
     private Connection connection;
 
     public PsqlStore(Properties cfg) {
-        try {
-            Class.forName(cfg.getProperty("jdbc.driver"));
-            connection = DriverManager.getConnection(
-                    cfg.getProperty("jdbc.url"),
-                    cfg.getProperty("jdbc.username"),
-                    cfg.getProperty("jdbc.password")
-            );
-        } catch (ClassNotFoundException | SQLException e) {
-            throw new IllegalStateException("Failed to initialize the database connection.", e);
-        }
     }
 
     @Override
@@ -41,8 +31,5 @@ public class PsqlStore implements Store {
 
     @Override
     public void close() throws Exception {
-        if (cnn != null) {
-            cnn.close();
-        }
     }
 }
