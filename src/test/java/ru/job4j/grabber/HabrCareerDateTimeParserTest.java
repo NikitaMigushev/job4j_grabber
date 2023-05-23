@@ -22,7 +22,7 @@ public class HabrCareerDateTimeParserTest {
     @Test
     public void testParseWithDifferentTimezoneOffset() {
         String input = "2023-05-20T10:30:00+03:00";
-        LocalDateTime expected = LocalDateTime.of(2023, 5, 20, 7, 30, 0); // converted to UTC
+        LocalDateTime expected = LocalDateTime.of(2023, 5, 20, 7, 30, 0);
         LocalDateTime result = parser.parse(input);
         assertEquals(expected, result);
     }
