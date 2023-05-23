@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2285e344-4b92-4573-8649-41ca7faf5e84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="2285e344-4b92-4573-8649-41ca7faf5e84" name="Changes" comment="0. Техническое задание. Агрегатор Java Вакансий. [#260357]">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,14 @@
       <option name="presentableId" value="Default" />
       <updated>1684833192756</updated>
     </task>
+    <task id="LOCAL-00001" summary="0. Техническое задание. Агрегатор Java Вакансий. [#260357]">
+      <created>1684833714333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684833714333</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -62,5 +69,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0. Техническое задание. Агрегатор Java Вакансий. [#260357]" />
+    <option name="LAST_COMMIT_MESSAGE" value="0. Техническое задание. Агрегатор Java Вакансий. [#260357]" />
   </component>
 </project>
