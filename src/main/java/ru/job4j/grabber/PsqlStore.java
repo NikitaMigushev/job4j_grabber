@@ -71,6 +71,7 @@ public class PsqlStore implements Store {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        System.out.println("Post: " + post.getTitle() + " has been saved in database.");
     }
 
     @Override
