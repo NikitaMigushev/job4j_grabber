@@ -75,7 +75,7 @@ public class Grabber implements Grab {
                     PrintWriter writer = new PrintWriter(new OutputStreamWriter(out, "windows-1251"), true);
                     StringBuilder htmlBuilder = new StringBuilder();
                     htmlBuilder.append("<html><body>");
-                    htmlBuilder.append("<h1>List Content</h1>");
+                    htmlBuilder.append("<h1>Вакансии</h1>");
                     for (Post post : store.getAll()) {
                         htmlBuilder.append("<div>");
                         htmlBuilder.append(String.format("<h2> <a href=\"%s\">", post.getLink())).append(post.getTitle()).append("</a> </h2>");
